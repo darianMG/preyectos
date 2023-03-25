@@ -13,7 +13,7 @@ public class Estudio_peso {
           System.out.println("digite una estatura");
              talla=ent.nextDouble();
               
-             imc=(peso/(talla*talla))*10000;
+             imc=peso/(talla*talla);
                System.out.println("el imc es "+imc);
                    if(imc<16.00){
                        System.out.println("la persona esta muy delgada");
